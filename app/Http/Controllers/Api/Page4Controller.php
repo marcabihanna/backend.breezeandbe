@@ -57,7 +57,6 @@ class Page4Controller extends Controller
 
     public function addOrder(Request $request)
     {
-
         $validator = Validator::make($request->all(), [
             'name' => 'required|string',
             'email' => 'required|email',
