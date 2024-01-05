@@ -173,7 +173,7 @@ class Page4Controller extends Controller
                     'receiver_directions' => $request->address,
                     'receiver_area' => $request->city,
                     'currency' => 1,
-                    'cash_collection_type_id' => 54,
+                    'cash_collection_type_id' => 52,
                     'collection_amount' => $totalPriceNew ?? $request->total_price,
                     'note' => '',
                     'car_needed' => false,
