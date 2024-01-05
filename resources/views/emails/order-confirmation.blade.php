@@ -1,5 +1,4 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
 
 <head>
@@ -232,11 +231,9 @@
     </style>
 </head>
 
-<body
-    style="padding: 0; margin: 0; -webkit-font-smoothing:antialiased; background-color:#f1f1f1; -webkit-text-size-adjust:none;">
+<body style="padding: 0; margin: 0; -webkit-font-smoothing:antialiased; background-color:#f1f1f1; -webkit-text-size-adjust:none;">
     <!--Main Parent Table -->
-    <table width="100%" border="0" cellpadding="0" direction="ltr" bgcolor="#f1f1f1" cellspacing="0"
-        role="presentation" style="width: 640px; min-width: 640px; margin:0 auto 0 auto;">
+    <table width="100%" border="0" cellpadding="0" direction="ltr" bgcolor="#f1f1f1" cellspacing="0" role="presentation" style="width: 640px; min-width: 640px; margin:0 auto 0 auto;">
         <tbody>
 
             <tr>
@@ -245,59 +242,46 @@
             <tr>
                 <td>
                     <!--Content Starts Here -->
-                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
-                        style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#f1f1f1">
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#f1f1f1">
                         <tr>
                             <td height="30" style="line-height:30px;min-height:30px;">
                             </td>
                         </tr>
                     </table>
                     <!--Top Header Starts Here -->
-                    <table border="0" bgcolor="#000000" cellpadding="0" cellspacing="0" width="640"
-                        role="presentation" width="640" style="width: 640px; min-width: 640px;" align="center"
-                        class="table-container ">
+                    <table border="0" bgcolor="#000000" cellpadding="0" cellspacing="0" width="640" role="presentation" width="640" style="width: 640px; min-width: 640px;" align="center" class="table-container ">
                         <tbody>
                             <tr width="640" style="width: 640px; min-width: 640px; " align="center">
                                 <td>
-                                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
-                                        style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#000000">
+                                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#000000">
                                         <tr>
                                             <td height="35" style="line-height:35px;min-height:35px;">
                                             </td>
                                         </tr>
                                     </table>
-                                    <table cellpadding="0" cellspacing="0" border="0" width="640"
-                                        style="width: 640px; min-width: 640px;" role="presentation" align="center"
-                                        bgcolor="#000000">
+                                    <table cellpadding="0" cellspacing="0" border="0" width="640" style="width: 640px; min-width: 640px;" role="presentation" align="center" bgcolor="#000000">
                                         <tr>
                                             <td align="left">
-                                                <table cellpadding="0" cellspacing="0" border="0"
-                                                    role="presentation" align="center" bgcolor="#000000">
+                                                <table cellpadding="0" cellspacing="0" border="0" role="presentation" align="center" bgcolor="#000000">
                                                     <tr>
                                                         <td>
 
 
-                                                            <table cellpadding="0" cellspacing="0" border="0"
-                                                                align="center" role="presentation">
+                                                            <table cellpadding="0" cellspacing="0" border="0" align="center" role="presentation">
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <img src="https://backend.breezeandbe.com/logo.svg" alt="Section Image" width="120"
-                                                                            height="120" class="alert-icon">
+                                                                        <img src='image/logo.icon' alt="Section Image" width="120" height="120" class="alert-icon">
                                                                     </td>
                                                                 </tr>
                                                             </table>
 
 
-                                                            <table cellpadding="0" cellspacing="0" border="0"
-                                                            align="center" width="640"
-                                                            style="width: 640px; min-width: 640px;"
-                                                            role="presentation" bgcolor="#000000">
-                                                            <tr>
-                                                                <td height="35"
-                                                                    style="line-height:35px;min-height:35px;">
-                                                                </td>
-                                                            </tr>
-                                                        </table>
+                                                            <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#000000">
+                                                                <tr>
+                                                                    <td height="35" style="line-height:35px;min-height:35px;">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -310,55 +294,45 @@
                     </table>
                     <!--Top Header Ends Here -->
                     <!--Welcome  Section Ends Here -->
-                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
-                        style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
                         <tr>
                             <td height="60" style="line-height:60px;min-height:60px;">
                             </td>
                         </tr>
                     </table>
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="640"
-                        role="presentation" bgcolor="#FFFFFF" class="table-container ">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="640" role="presentation" bgcolor="#FFFFFF" class="table-container ">
                         <tbody>
                             <tr>
 
                             </tr>
                         </tbody>
                     </table>
-                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
-                        style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
                         <tr>
                             <td height="20" style="line-height:20px;min-height:20px;">
                             </td>
                         </tr>
                     </table>
-                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
-                        style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
                         <tbody>
                             <tr>
-                                <td align="center"
-                                    style="color:#222525;padding:20px 40px 0 40px;font-family: 'Lato', Arial, Helvetica, sans-serif;font-weight:800;font-size:34px;-webkit-font-smoothing:antialiased;line-height:1.2;"
-                                    class="table-container mobile-title">
+                                <td align="center" style="color:#222525;padding:20px 40px 0 40px;font-family: 'Lato', Arial, Helvetica, sans-serif;font-weight:800;font-size:34px;-webkit-font-smoothing:antialiased;line-height:1.2;" class="table-container mobile-title">
                                     Thank you for choosing
                                 </td>
                             </tr>
                             <tr>
-                                <td align="center"
-                                    style="color:#222525;padding:20px 40px 0 40px;font-family: 'Lato', Arial, Helvetica, sans-serif;font-weight:800;font-size:34px;-webkit-font-smoothing:antialiased;line-height:1.2;"
-                                    class="table-container mobile-title">
-                                     Breeze & Be!
+                                <td align="center" style="color:#222525;padding:20px 40px 0 40px;font-family: 'Lato', Arial, Helvetica, sans-serif;font-weight:800;font-size:34px;-webkit-font-smoothing:antialiased;line-height:1.2;" class="table-container mobile-title">
+                                    Breeze & Be!
                                 </td>
                             </tr>
-                            <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
-                            style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
-                            <tr>
-                                <td height="60" style="line-height:60px;min-height:60px;">
-                                </td>
-                            </tr>
+                            <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
+                                <tr>
+                                    <td height="60" style="line-height:60px;min-height:60px;">
+                                    </td>
+                                </tr>
                             </table>
                             <tr>
-                                <td
-                                    style="font-size: 16px; line-height: 24px; color: #222525; padding: 20px; text-align: center;">
+                                <td style="font-size: 16px; line-height: 24px; color: #222525; padding: 20px; text-align: center;">
 
                                     Welcome to Breeze & Be! We're thrilled that you've selected our products.
                                     Your order confirmation details are below.
@@ -371,33 +345,24 @@
         <!-- Products Section Header -->
         <table>
             <tr>
-                <td bgcolor="#FFF" width="80" align="center"
-                    style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                <td bgcolor="#FFF" width="80" align="center" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
                 </td>
-                <td bgcolor="#FFF" align="center"
-                    style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                <td bgcolor="#FFF" align="center" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
                     Product
                 </td>
-                <td bgcolor="#FFF" width="80" align="left"
-                style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
-            </td>
+                <td bgcolor="#FFF" width="80" align="left" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                </td>
 
-                <td bgcolor="#FFFFFF" align="center"
-                    style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;"
-                    class="table-container">
+                <td bgcolor="#FFFFFF" align="center" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;" class="table-container">
                     Quantity
                 </td>
-                <td bgcolor="#FFF" width="80" align="center"
-                    style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                <td bgcolor="#FFF" width="80" align="center" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
                 </td>
 
-                <td bgcolor="#FFFFFF" align="center"
-                    style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;"
-                    class="table-container">
+                <td bgcolor="#FFFFFF" align="center" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;" class="table-container">
                     Price
                 </td>
-                <td bgcolor="#FFF" width="80" align="left"
-                    style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                <td bgcolor="#FFF" width="80" align="left" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
                 </td>
             </tr>
             <!-- </table>
@@ -405,37 +370,30 @@
             <!-- Products Section -->
             <!-- Loop through your products and display them -->
             @if ($order->orderDetail && is_countable($order->orderDetail) && count($order->orderDetail) > 0)
-                @foreach ($order->orderDetail as $orderDetail)
-                    <tr>
-                        <td bgcolor="#FFF" width="80" align="center"
-                            style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
-                        </td>
+            @foreach ($order->orderDetail as $orderDetail)
+            <tr>
+                <td bgcolor="#FFF" width="80" align="center" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                </td>
 
-                        <td bgcolor="#FFFFFF" align="left"
-                            style="color: #222525; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: normal; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
-                            {{ $orderDetail->product->title }}
-                        </td>
-                        <td bgcolor="#FFF" width="80" align="left"
-                        style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
-                    </td>
-                        <td bgcolor="#FFFFFF" align="center"
-                            style="color: #222525; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: normal; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
-                            {{ $orderDetail->quantity }}
-                        </td>
-                        <td bgcolor="#FFF" width="80" align="center"
-                        style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
-                    </td>
-                        <td bgcolor="#FFFFFF" align="center"
-                            style="color: #222525; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
-                            ${{ $orderDetail->product->price * $orderDetail->quantity }}
-                        </td>
-                        <td bgcolor="#FFF" width="80" align="left"
-                            style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
-                        </td>
-                    </tr>
-                @endforeach
-        @endif
-    </table>
+                <td bgcolor="#FFFFFF" align="left" style="color: #222525; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: normal; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                    {{ $orderDetail->product->title }}
+                </td>
+                <td bgcolor="#FFF" width="80" align="left" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                </td>
+                <td bgcolor="#FFFFFF" align="center" style="color: #222525; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: normal; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                    {{ $orderDetail->quantity }}
+                </td>
+                <td bgcolor="#FFF" width="80" align="center" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                </td>
+                <td bgcolor="#FFFFFF" align="center" style="color: #222525; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                    ${{ $orderDetail->product->price * $orderDetail->quantity }}
+                </td>
+                <td bgcolor="#FFF" width="80" align="left" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;">
+                </td>
+            </tr>
+            @endforeach
+            @endif
+        </table>
         <!-- Other Sections (Shipping, Taxes, Total) -->
         <!-- ... -->
 
@@ -447,22 +405,22 @@
                     TOTAL
                 </td>
                 @if(isset($order->total_price_new))
-                    <td bgcolor="#FFFFFF" align="right" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; -webkit-font-smoothing: antialiased; line-height: 1.4;" class="table-container">
-                        Price after Discount:  ${{ $order->total_price_new }}
-                        @if(isset($order->coupon->discount))
-                            <br>
-                            <span style="font-size: 12px; color: #999;">Discount: %{{($order->coupon->discount)}}</span>
-                        @endif
-                    </td>
-                    <td bgcolor="#FFF" width="40" align="left" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;"></td>
-                    <td bgcolor="#FFFFFF" align="right" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; -webkit-font-smoothing: antialiased; line-height: 1.4;" class="table-container">
-                        Original Price: ${{ $order->total_price }}
-                    </td>
+                <td bgcolor="#FFFFFF" align="right" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; -webkit-font-smoothing: antialiased; line-height: 1.4;" class="table-container">
+                    Price after Discount: ${{ $order->total_price_new }}
+                    @if(isset($order->coupon->discount))
+                    <br>
+                    <span style="font-size: 12px; color: #999;">Discount: %{{($order->coupon->discount)}}</span>
+                    @endif
+                </td>
+                <td bgcolor="#FFF" width="40" align="left" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;"></td>
+                <td bgcolor="#FFFFFF" align="right" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; -webkit-font-smoothing: antialiased; line-height: 1.4;" class="table-container">
+                    Original Price: ${{ $order->total_price }}
+                </td>
                 @else
-                    <td bgcolor="#FFFFFF" align="right" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; -webkit-font-smoothing: antialiased; line-height: 1.4;" class="table-container">
-                        ${{ $order->total_price }}
-                    </td>
-                    <td bgcolor="#FFF" width="40" align="left" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;"></td>
+                <td bgcolor="#FFFFFF" align="right" style="border-top: 2px solid #222525; border-bottom: 2px solid #222525; color: #5a5a5a; padding: 10px 40px 10px 40px; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; -webkit-font-smoothing: antialiased; line-height: 1.4;" class="table-container">
+                    ${{ $order->total_price }}
+                </td>
+                <td bgcolor="#FFF" width="40" align="left" style="color: #222525; padding: 10px 0 10px 0; font-family: 'Lato', Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; -webkit-font-smoothing: antialiased; line-height: 1.4;"></td>
                 @endif
             </tr>
         </table>
@@ -470,34 +428,30 @@
 
 
     </table>
-    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
-        style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
+    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" role="presentation" bgcolor="#FFFFFF">
         <tr>
             <td height="60" style="line-height:60px;min-height:60px;">
             </td>
         </tr>
     </table>
-    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
-        style="width: 640px; min-width: 640px;" bgcolor="#FFFFFF" role="presentation" class="table-container ">
+    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width: 640px; min-width: 640px;" bgcolor="#FFFFFF" role="presentation" class="table-container ">
     </table>
 
-    <table align="center" border="0" cellpadding="0" cellspacing="0" width="640"
-    role="presentation" bgcolor="#FFFFFF" class="table-container ">
-    <tbody>
-        <tr>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="640" role="presentation" bgcolor="#FFFFFF" class="table-container ">
+        <tbody>
+            <tr>
 
-        </tr>
-    </tbody>
-</table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="640"
-role="presentation" bgcolor="#FFFFFF" class="table-container ">
-<tbody>
-    <tr>
+            </tr>
+        </tbody>
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="640" role="presentation" bgcolor="#FFFFFF" class="table-container ">
+        <tbody>
+            <tr>
 
-    </tr>
-</tbody>
-</table>
- </table>
+            </tr>
+        </tbody>
+    </table>
+    </table>
 </body>
 
 </html>
