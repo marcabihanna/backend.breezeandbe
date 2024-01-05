@@ -151,6 +151,8 @@ class Page4Controller extends Controller
                     ];
                 }
 
+                \Log::debug($order);
+                \Log::debug($request);
                 $deliveryData = [
                     'get_order_details' => false,
                     'get_barcode' => false,
@@ -158,7 +160,7 @@ class Page4Controller extends Controller
                     'receiver_id' => $order->id,
                     'receiver_first_name' => $request->name,
                     'receiver_last_name' => '',
-                    'receiver_phone_number' => $request->prefix_phone . $request->phone,
+                    'receiver_phone_number' => $request->prefix_phone.$request->phone,
                     'receiver_gender' => '',
                     'receiver_email' => $request->email,
                     'receiver_secondary_phone_number' => '',

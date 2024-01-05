@@ -281,7 +281,7 @@
                                                                 align="center" role="presentation">
                                                                 <tr>
                                                                     <td align="center">
-                                                                        <img src="https://backend.breezeandbe.com/public/logo.svg" alt="Section Image" width="120"
+                                                                        <img src="https://backend.breezeandbe.com/logo.svg" alt="Section Image" width="120"
                                                                             height="120" class="alert-icon">
                                                                     </td>
                                                                 </tr>
