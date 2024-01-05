@@ -151,16 +151,17 @@ class Page4Controller extends Controller
                     ];
                 }
 
-                \Log::debug($order);
-                \Log::debug($request);
+                $fullName = $request->name;
+                $parts = explode(' ', $fullName);
+
                 $deliveryData = [
                     'get_order_details' => false,
                     'get_barcode' => false,
-                    'waybill' => $order->id,
-                    'receiver_id' => $order->id,
-                    'receiver_first_name' => $request->name,
-                    'receiver_last_name' => '',
-                    'receiver_phone_number' => $request->prefix_phone.$request->phone,
+                    'waybill' => '',
+                    'receiver_id' => '',
+                    'receiver_first_name' => $parts[0],
+                    'receiver_last_name' => implode(' ', array_slice($parts, 1)),
+                    'receiver_phone_number' => $request->prefix_phone + $request->phone,
                     'receiver_gender' => '',
                     'receiver_email' => $request->email,
                     'receiver_secondary_phone_number' => '',
