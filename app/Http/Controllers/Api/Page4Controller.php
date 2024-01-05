@@ -157,8 +157,8 @@ class Page4Controller extends Controller
                 $deliveryData = [
                     'get_order_details' => false,
                     'get_barcode' => false,
-                    'waybill' => '',
-                    'receiver_id' => '',
+                    'waybill' => $order->id,
+                    'receiver_id' => $order->id,
                     'receiver_first_name' => $parts[0],
                     'receiver_last_name' => implode(' ', array_slice($parts, 1)),
                     'receiver_phone_number' => $request->prefix_phone + $request->phone,
