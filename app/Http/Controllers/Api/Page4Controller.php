@@ -185,8 +185,7 @@ class Page4Controller extends Controller
                     $endBulkResponse = $this->endBulk($wakilniToken, $bulkResponse['bulk_id']);
 
                     if (isset($endBulkResponse['bulk_id'])) {
-                        \Log::debug($order);
-                        Mail::to($order->customer_email)->send(new OrderConfirmationEmail($order));
+                        Mail::to($order->email)->send(new OrderConfirmationEmail($order));
 
                         return $this->apiResponse(['order_uuid' => $order->uuid], true, null, 201);
                     } else {
