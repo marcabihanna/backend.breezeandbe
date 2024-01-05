@@ -8,7 +8,6 @@ use App\Http\Resources\FooterResource;
 use App\Http\Resources\HowToUseResource;
 use App\Http\Resources\PageComponentResource;
 use App\Http\Resources\ProductTitleResource;
-use App\Http\Resources\SliderResource;
 use App\Http\Traits\GeneralTrait;
 use App\Http\Traits\OrderTrait;
 use App\Models\ContactDetail;
@@ -19,10 +18,10 @@ use App\Models\Order;
 use App\Models\OrderDetail;
 use App\Models\PageComponent;
 use App\Models\Product;
-use App\Models\Slider;
-use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use App\Mail\OrderConfirmationEmail;
+use Illuminate\Support\Facades\Mail;
 
 class Page4Controller extends Controller
 {
@@ -48,7 +47,7 @@ class Page4Controller extends Controller
                 'contact' => $contact,
                 'how_to_use' => $how_to_use,
                 'footer' => $footer,
-                'latestProduct'=> new ProductTitleResource($latestProduct),
+                'latestProduct' => new ProductTitleResource($latestProduct),
             ]);
         } catch (\Exception $e) {
             return $this->apiResponse(null, false, $e->getMessage(), 500);
@@ -57,7 +56,6 @@ class Page4Controller extends Controller
 
     public function addOrder(Request $request)
     {
-
         $validator = Validator::make($request->all(), [
             'name' => 'required|string',
             'email' => 'required|email',
@@ -77,7 +75,6 @@ class Page4Controller extends Controller
         if ($validator->fails()) {
             return $this->requiredField($validator->errors()->first());
         }
-
 
         $products = Product::whereIn('uuid', array_column($request->products, 'uuid'))->get();
 
@@ -109,7 +106,7 @@ class Page4Controller extends Controller
             'country' => $request->country,
             'address' => $request->address,
             'total_price' => $request->total_price,
-            'total_price_new' => ($totalPriceNew)?$totalPriceNew:null,
+            'total_price_new' => ($totalPriceNew) ? $totalPriceNew : null,
             'status' => true,
             'delivered' => false,
             'in_progress' => true,
@@ -126,8 +123,8 @@ class Page4Controller extends Controller
                 'quantity' => $productData['quantity'],
                 'status' => true,
             ]);
-            
-                $productQuantities[$product->id] = $productData['quantity'];
+
+            $productQuantities[$product->id] = $productData['quantity'];
         }
 
 
@@ -142,8 +139,6 @@ class Page4Controller extends Controller
                 $wakilniToken = $authResponse['token'];
                 // $productQuantities[$product->id] = ($productQuantities[$product->id] ?? 0) + $productData['quantity'];
 
-
-
                 $packages = [];
                 foreach ($productQuantities as $productId => $quantity) {
                     $product = Product::find($productId);
@@ -151,21 +146,19 @@ class Page4Controller extends Controller
                     $packages[] = [
                         'quantity' => $quantity,
                         'type_id' => $productId,
-                        'name' =>$product->title ,
+                        'name' => $product->title,
                         'sku' => 'SKU' . $productId,
                     ];
                 }
 
-
-
                 $deliveryData = [
-                    'get_order_details' => true,
-                    'get_barcode' => true,
+                    'get_order_details' => false,
+                    'get_barcode' => false,
                     'waybill' => $order->id,
                     'receiver_id' => $order->id,
                     'receiver_first_name' => $request->name,
-                    'receiver_last_name' => $request->name,
-                    'receiver_phone_number' => $request->prefix_phone.$request->phone,
+                    'receiver_last_name' => '',
+                    'receiver_phone_number' => $request->prefix_phone . $request->phone,
                     'receiver_gender' => '',
                     'receiver_email' => $request->email,
                     'receiver_secondary_phone_number' => '',
@@ -192,26 +185,15 @@ class Page4Controller extends Controller
                     $endBulkResponse = $this->endBulk($wakilniToken, $bulkResponse['bulk_id']);
 
                     if (isset($endBulkResponse['bulk_id'])) {
-
-                        $mailData = [
-                            'order' => $order,
-
-                        ];
-                        $latestUserEmail = 'maroun.karam@themetanest.com';
-
-                       // $this->send_email('emails.order-confirmation', $request->email, 'Order Confirmation', $mailData);
-
-                        //$this->send_email('emails.order-confirmation',$latestUserEmail, 'Order Confirmation', $mailData);
+                        Mail::to($order->customer_email)->send(new OrderConfirmationEmail($order));
 
                         return $this->apiResponse(['order_uuid' => $order->uuid], true, null, 201);
                     } else {
                         return $this->apiResponse(['error' => 'Failed to end bulk with Wakilni API'], false, null, 500);
                     }
-
                 } else {
                     return $this->apiResponse(['error' => 'Failed to add delivery with Wakilni API'], false, null, 500);
                 }
-
             } else {
                 return $this->apiResponse(['error' => 'Failed to start bulk with Wakilni API'], false, null, 500);
             }

@@ -3,7 +3,8 @@
 namespace App\Http\Traits;
 
 use App\Models\ContactDetail;
-use Illuminate\Support\Facades\Mail;
+use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Email;
 
 trait GeneralTrait
 {
@@ -11,12 +12,11 @@ trait GeneralTrait
     {
         $array = [
             'data' => $data,
-            'status' => $status ,
+            'status' => $status,
             'error' => $error,
             'statusCode' => $statusCode
         ];
         return response($array, $statusCode);
-
     }
 
     public function unAuthorizeResponse()
@@ -35,25 +35,30 @@ trait GeneralTrait
         return $this->apiResponse(null, false, $message, 400);
     }
 
-
-    public function send_email($templateName, $email1, $subj, $order)
+    public function send_email(MailerInterface $mailer, $templateName, $email1, $subj, $order)
     {
         try {
+            $email = (new Email())
+            ->from($_ENV['MAIL_FROM_ADDRESS'])
+            ->to($email1)
+            ->replyTo($_ENV['MAIL_FROM_ADDRESS'], $_ENV['MAIL_FROM_NAME'])
+            ->subject($subj)
+            ->html('<h1>Your Order Details</h1>' . $order);
 
+            $transport = (new \Symfony\Component\Mailer\Transport\Smtp\SmtpTransport(
+                $_ENV['MAIL_HOST'],
+                $_ENV['MAIL_PORT'],
+                $_ENV['MAIL_ENCRYPTION']
+            ))
+                ->setUsername($_ENV['MAIL_USERNAME'])
+                ->setPassword($_ENV['MAIL_PASSWORD']);
 
-            Mail::send($templateName, $order, function ($message) use ($email1, $subj) {
-                $message->to($email1, 'Insurance')->subject($subj);
-                // $message->from('biners.testing@gmail.com', 'Insurance');
-            });
+            $mailer->send($email, $transport);
 
             return true;
-        } catch (\Swift_TransportException $e) {
-            if ($e->getMessage()) {
-                return "catch";
-            }
+        } catch (\Exception $e) {
+            // Handle exception as needed
+            return false;
         }
     }
-
 }
-
-

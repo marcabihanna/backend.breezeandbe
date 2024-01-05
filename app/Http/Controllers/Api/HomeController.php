@@ -39,6 +39,7 @@ class HomeController extends Controller
             $call_to_action2 =  new PageComponentResource(PageComponent::where('page', 'home')->where('slug', 'call_to_action2')->first());
             $contact = ContactDetailResource::collection(ContactDetail::all());
             $footer=FooterResource::collection(Footer::all());
+            
             return $this->apiResponse([
                 'slider' => $slider,
                 'top_description' => $topDescription,
