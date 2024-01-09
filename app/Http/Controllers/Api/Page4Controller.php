@@ -161,7 +161,7 @@ class Page4Controller extends Controller
                     'receiver_id' => $order->id,
                     'receiver_first_name' => $parts[0],
                     'receiver_last_name' => implode(' ', array_slice($parts, 1)),
-                    'receiver_phone_number' => '+961' + $request->phone,
+                    'receiver_phone_number' => '+961' . $request->phone,
                     'receiver_gender' => '',
                     'receiver_email' => $request->email,
                     'receiver_secondary_phone_number' => '',
